@@ -23,6 +23,7 @@ namespace DevIO.UI.Site
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
